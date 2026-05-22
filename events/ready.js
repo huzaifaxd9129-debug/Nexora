@@ -4,11 +4,7 @@ module.exports = (client) => {
   console.log(`🤖 Logged in as ${client.user.tag}`);
 
   const statuses = [
-    { name: "Made By Huztro", type: ActivityType.Watching },
-    { name: "Moderating Premium Servers", type: ActivityType.Playing },
-    { name: "Ensuring Uptime Stability", type: ActivityType.Watching },
-    { name: "Executing System Diagnostics", type: ActivityType.Listening },
-    { name: "Optimizing Perfomance Modules", type: ActivityType.Competing }
+    { name: "dsc.gg/darknezz", type: ActivityType.Watching }
   ];
 
   let i = 0;
